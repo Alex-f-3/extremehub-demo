@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Демо · страница «Интересные факты» с блоком новостей</title>
+<style>
+  body{margin:0;font-family:'Inter',-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#fff;color:#16181d;line-height:1.6}
+  .demo-hero{background:#16181d;color:#fff;text-align:center;padding:60px 16px 54px}
+  .demo-hero h1{font-size:32px;font-weight:800;margin:0 0 10px}
+  .demo-hero p{color:#b9bec6;margin:0 0 22px;font-size:15px}
+  .demo-hero .btn{display:inline-block;background:#ff6b35;color:#fff;font-weight:700;padding:13px 34px;border-radius:30px;text-decoration:none}
+  .demo-article{max-width:760px;margin:0 auto;padding:40px 20px 10px}
+  .demo-article .lead{font-size:19px;font-weight:600;margin:0 0 22px}
+  .demo-fact{margin:0 0 18px}.demo-fact h3{font-size:17px;font-weight:700;margin:0 0 4px}.demo-fact p{margin:0;color:#444}
+  .demo-note{max-width:1100px;margin:24px auto 0;padding:12px 16px;background:#fff4ee;border:1px solid #ffd9c7;border-radius:12px;color:#9a4b22;font-size:13.5px;text-align:center}
+  .demo-divider{max-width:1100px;margin:24px auto 4px;padding:0 16px;font-size:12px;color:#9097a1;text-transform:uppercase;letter-spacing:.05em;font-weight:700}
+</style>
+</head>
+<body>
+<script>window.__NX_FEED__={
+  "generated_at": "2026-06-04T14:55:56.577Z",
+  "count": 5,
+  "articles": [
+    {
+      "id": 808,
+      "title": "ARB представляет крышку кузова Ascent для Tacoma",
+      "summary": "ARB расширяет линейку аксессуаров для пикапов, представляя новую крышку кузова Ascent, разработа��ную специально для Toyota Tacoma.",
+      "image_url": "https://outdoorx4.com/wp-content/uploads/2026/03/0F3A5440-2-copy.jpg",
+      "published_at": "Mon, 02 Mar 2026 21:48:31 +0000",
+      "category": "other",
+      "source": "OutdoorX4",
+      "url": "https://outdoorx4.com/news-and-events/arb-ascent-truck-cap/",
+      "body": "ARB представляет крышку кузова Ascent для Tacoma\n\nПост ARB представляет крышку кузова Ascent для Tacoma впервые появился на OutdoorX4."
+    },
+    {
+      "id": 801,
+      "title": "Hyundai анонсировала концепт Boulder в стиле Bronco",
+      "summary": "Hyundai представила тизер концепта внедорожника Boulder, вдохновлённого Ford Bronco.",
+      "image_url": "https://outdoorx4.com/wp-content/uploads/2026/04/Boulder3.jpg",
+      "published_at": "Wed, 01 Apr 2026 23:51:23 +0000",
+      "category": "other",
+      "source": "OutdoorX4",
+      "url": "https://outdoorx4.com/news-and-events/hyundai-boulder-concept/",
+      "body": "Публикация Hyundai анонсировала концепт Boulder в стиле Bronco впервые появилась на OutdoorX4."
+    },
+    {
+      "id": 799,
+      "title": "ARB Анонсирует Новый Ассортимент Лебёдок",
+      "summary": "Компания ARB представила новую линейку лебёдок для внедорожников.",
+      "image_url": "https://outdoorx4.com/wp-content/uploads/2026/04/ARBWinch1.jpg",
+      "published_at": "Sat, 04 Apr 2026 00:11:29 +0000",
+      "category": "event",
+      "source": "OutdoorX4",
+      "url": "https://outdoorx4.com/news-and-events/arb-winch-lineup/",
+      "body": "Публикация ARB Анонсирует Новый Ассортимент Лебёдок впервые появилась на OutdoorX4."
+    },
+    {
+      "id": 795,
+      "title": "Направление: Оверленд",
+      "summary": "Публикация о путешествии в стиле оверленд.",
+      "image_url": "https://outdoorx4.com/wp-content/uploads/2026/04/DOIntro.jpg",
+      "published_at": "Thu, 23 Apr 2026 19:40:10 +0000",
+      "category": "location",
+      "source": "OutdoorX4",
+      "url": "https://outdoorx4.com/stories/destination-overland/",
+      "body": "Публикация «Направление: Оверленд» впервые появилась на OutdoorX4."
+    },
+    {
+      "id": 673,
+      "title": "Jeep отзывает более 368 000 автомобилей модельного ряда 2021–2025 годов",
+      "summary": "Компания Jeep объявила об отзыве более 368 000 автомобилей, выпущенных в период с 2021 по 2025 год.",
+      "image_url": "https://outdoorx4.com/wp-content/uploads/2026/05/ET024_043EP.jpg",
+      "published_at": "Wed, 27 May 2026 17:51:31 +0000",
+      "category": "other",
+      "source": "OutdoorX4",
+      "url": "https://outdoorx4.com/news-and-events/jeep-recalls-from-2021-2025/",
+      "body": "Публикация Jeep отзывает более 368 000 автомобилей модельного ряда 2021–2025 годов впервые появилась на OutdoorX4."
+    }
+  ]
+};</script>
+
+  <div class="demo-hero">
+    <h1>Интересные факты о Трофи&nbsp;Рейдах</h1>
+    <p>Узнайте что-то новое о невероятном мире офроуд-гонок по бездорожью</p>
+    <a class="btn" href="#news">узнать</a>
+  </div>
+  <div class="demo-article">
+    <p class="lead">Трофи-рейды — это не просто гонки по бездорожью, а смесь спорта, выживания и инженерии. Вот несколько действительно интересных фактов:</p>
+    <div class="demo-fact"><h3>1. Здесь побеждает не максимальная скорость</h3><p>В отличие от ралли, в трофи-рейде главное — пройти трассу. Иногда выгоднее ехать медленно, но не застрять в грязи или броде.</p></div>
+    <div class="demo-fact"><h3>2. Машина — полноценный член экипажа</h3><p>Лебёдка, шноркель, силовой бампер, усиленная подвеска. Без подготовки авто экипаж не уедет далеко.</p></div>
+    <div class="demo-fact"><h3>3. Без навигатора никуда</h3><p>GPS, бумажные карты, точки координат. Ошибка в маршруте — и можно потерять часы.</p></div>
+    <div class="demo-fact"><h3>4. Это командный спорт</h3><p>Пилот рулит, штурман читает дорогу. Экипажи вытаскивают друг друга — взаимовыручка норма.</p></div>
+    <div class="demo-fact"><h3>5. Локации — целые миры</h3><p>От казахстанских степей и каньонов до африканских пустынь — каждая трасса уникальна.</p></div>
+  </div>
+  <div class="demo-note">👇 Внизу страницы — БЛОК НОВОСТЕЙ. Клик по карточке открывает НАШУ полную статью на русском (модальное окно), а не оригинал. Внизу — «Источник: …» (атрибуция). Обновляется само из облака.</div>
+  <div class="demo-divider" id="news">↓ начало блока T123 (вставляется в Tilda)</div>
+
+  <!-- ====== ВИДЖЕТ ====== -->
+  <div id="nx-news" class="nx-news-root">
+    <div class="nx-news-head"><h2>Новости трофи-рейда</h2><span class="nx-news-live"><i></i> обновляется автоматически</span></div>
+    <div id="nx-news-grid" class="nx-news-grid"><div class="nx-news-loading">Загружаем свежие новости…</div></div>
+    <div class="nx-news-foot">extremehub.kz · 5 самых свежих новостей ниши</div>
+  </div>
+  <div id="nx-modal" class="nx-modal" style="display:none">
+    <div class="nx-modal-backdrop" data-nx-close></div>
+    <div class="nx-modal-panel" role="dialog" aria-modal="true">
+      <button class="nx-modal-x" data-nx-close aria-label="Закрыть">×</button>
+      <div id="nx-m-img" class="nx-modal-img"></div>
+      <div class="nx-modal-body">
+        <span id="nx-m-cat" class="nx-badge nx-badge-static"></span>
+        <h1 id="nx-m-title" class="nx-modal-title"></h1>
+        <div id="nx-m-meta" class="nx-modal-meta"></div>
+        <div id="nx-m-text" class="nx-modal-text"></div>
+        <div class="nx-modal-foot" id="nx-m-foot"></div>
+      </div>
+    </div>
+  </div>
+  <style>
+    .nx-news-root{max-width:1100px;margin:0 auto;padding:8px 16px 24px;color:#1a1a1a;box-sizing:border-box}
+    .nx-news-root *{box-sizing:border-box}
+    .nx-news-head{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+    .nx-news-head h2{font-size:26px;font-weight:800;margin:0;letter-spacing:-.01em}
+    .nx-news-live{display:inline-flex;align-items:center;gap:7px;font-size:13px;color:#6b7280;font-weight:600}
+    .nx-news-live i{width:8px;height:8px;border-radius:50%;background:#ff6b35;box-shadow:0 0 0 0 rgba(255,107,53,.6);animation:nxpulse 2s infinite}
+    @keyframes nxpulse{0%{box-shadow:0 0 0 0 rgba(255,107,53,.55)}70%{box-shadow:0 0 0 9px rgba(255,107,53,0)}100%{box-shadow:0 0 0 0 rgba(255,107,53,0)}}
+    .nx-news-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:18px}
+    .nx-card{display:flex;flex-direction:column;background:#fff;border:1px solid #ececec;border-radius:16px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,.06);transition:transform .18s ease,box-shadow .18s ease;cursor:pointer}
+    .nx-card:hover{transform:translateY(-4px);box-shadow:0 10px 28px rgba(0,0,0,.12)}
+    .nx-card:hover .nx-card-title{color:#ff6b35}
+    .nx-card-img{position:relative;width:100%;aspect-ratio:16/9;background:#f0f0f0;overflow:hidden}
+    .nx-card-img img{width:100%;height:100%;object-fit:cover;display:block}
+    .nx-badge{position:absolute;top:10px;left:10px;background:rgba(255,107,53,.95);color:#fff;font-size:11px;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:4px 9px;border-radius:8px}
+    .nx-badge-static{position:static;display:inline-block;margin-bottom:10px}
+    .nx-card-body{display:flex;flex-direction:column;gap:8px;padding:15px 16px 16px;flex:1}
+    .nx-card-title{font-size:17px;font-weight:700;line-height:1.3;margin:0;color:#16181d;transition:color .15s}
+    .nx-card-sum{font-size:14px;line-height:1.5;color:#5b6068;margin:0;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+    .nx-card-meta{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-top:auto;padding-top:10px;font-size:12.5px;color:#9097a1}
+    .nx-card-src{color:#9aa0a8;font-weight:600}.nx-card-date{color:#aeb3bb;white-space:nowrap}
+    .nx-card-more{font-size:13px;font-weight:700;color:#ff6b35}
+    .nx-news-loading,.nx-news-empty,.nx-news-err{grid-column:1/-1;text-align:center;padding:40px 0;color:#9097a1;font-size:15px}
+    .nx-news-foot{margin-top:20px;text-align:center;font-size:12.5px;color:#aeb3bb}
+    .nx-modal{position:fixed;inset:0;z-index:99999;display:flex;align-items:flex-start;justify-content:center;padding:30px 16px;overflow-y:auto}
+    .nx-modal-backdrop{position:fixed;inset:0;background:rgba(15,17,21,.6);backdrop-filter:blur(3px)}
+    .nx-modal-panel{position:relative;background:#fff;max-width:720px;width:100%;border-radius:18px;overflow:hidden;box-shadow:0 24px 70px rgba(0,0,0,.4)}
+    .nx-modal-x{position:absolute;top:12px;right:14px;z-index:2;width:38px;height:38px;border:none;border-radius:50%;background:rgba(0,0,0,.45);color:#fff;font-size:24px;cursor:pointer}
+    .nx-modal-img{width:100%;aspect-ratio:16/9;background:#f0f0f0;overflow:hidden}.nx-modal-img img{width:100%;height:100%;object-fit:cover;display:block}
+    .nx-modal-body{padding:24px 30px 30px}
+    .nx-modal-title{font-size:27px;font-weight:800;line-height:1.25;margin:0 0 12px;color:#16181d}
+    .nx-modal-meta{font-size:13px;color:#9097a1;font-weight:600;margin-bottom:18px;padding-bottom:16px;border-bottom:1px solid #eee}
+    .nx-modal-text{font-size:16.5px;line-height:1.7;color:#2b2f36}
+    .nx-modal-text p{margin:0 0 16px}.nx-modal-text strong{color:#16181d;font-weight:700}
+    .nx-modal-foot{margin-top:22px;padding-top:16px;border-top:1px solid #eee;font-size:13px;color:#9097a1}
+    @media(max-width:600px){.nx-news-head h2{font-size:22px}.nx-news-grid{grid-template-columns:1fr}.nx-modal-body{padding:18px 18px 24px}.nx-modal-title{font-size:22px}}
+  </style>
+  <script>
+  (function(){
+    var FEED_URL='https://zdprephrqgcwrxcukowr.supabase.co/storage/v1/object/public/releases/articles-feed.json';
+    var CAT={raid:'Трофи-рейд',event:'Событие',tech:'Техника',location:'Локации',other:'Новости'};var _a=[];
+    function esc(s){return String(s==null?'':s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c];});}
+    function fmtDate(s){try{var d=new Date(s);if(isNaN(d))return'';return d.toLocaleDateString('ru-RU',{day:'numeric',month:'long',year:'numeric'});}catch(e){return'';}}
+    function renderBody(md){var s=esc(md||'');s=s.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');return s.split(/\n\s*\n/).map(function(p){return '<p>'+p.replace(/\n/g,'<br>')+'</p>';}).join('');}
+    function card(n,i){var title=esc(n.title||'Без заголовка');var sum=esc(n.summary||'');var cat=CAT[n.category]||CAT.other;var img=n.image_url?'<img loading="lazy" src="'+esc(n.image_url)+'" alt="" onerror="this.style.display=\'none\'">':'';var date=fmtDate(n.published_at);var sname=esc(n.source||'Источник');return '<article class="nx-card" data-i="'+i+'"><div class="nx-card-img"><span class="nx-badge">'+esc(cat)+'</span>'+img+'</div><div class="nx-card-body"><h3 class="nx-card-title">'+title+'</h3>'+(sum?'<p class="nx-card-sum">'+sum+'</p>':'')+'<div class="nx-card-meta"><span class="nx-card-src">Источник: '+sname+'</span><span class="nx-card-date">'+esc(date)+'</span></div><div class="nx-card-more">Читать полностью →</div></div></article>';}
+    function openArticle(i){var n=_a[i];if(!n)return;document.getElementById('nx-m-img').innerHTML=n.image_url?'<img src="'+esc(n.image_url)+'" alt="" onerror="this.parentNode.style.display=\'none\'">':'';document.getElementById('nx-m-cat').textContent=CAT[n.category]||CAT.other;document.getElementById('nx-m-title').textContent=n.title||'';document.getElementById('nx-m-meta').textContent=(n.source?'Источник: '+n.source:'')+(n.published_at?'  ·  '+fmtDate(n.published_at):'');document.getElementById('nx-m-text').innerHTML=renderBody(n.body||n.summary||'Полный текст готовится…');document.getElementById('nx-m-foot').textContent='Материал подготовлен по публикации источника «'+(n.source||'')+'». extremehub.kz ретранслирует новости ниши.';document.getElementById('nx-modal').style.display='flex';document.body.style.overflow='hidden';}
+    function closeArticle(){document.getElementById('nx-modal').style.display='none';document.body.style.overflow='';}
+    function render(items){_a=items||[];var g=document.getElementById('nx-news-grid');if(!g)return;if(!_a.length){g.innerHTML='<div class="nx-news-empty">Скоро здесь появятся свежие новости.</div>';return;}g.innerHTML=_a.map(card).join('');g.querySelectorAll('[data-i]').forEach(function(el){el.onclick=function(){openArticle(+el.dataset.i);};});}
+    function load(){ if(window.__NX_FEED__){render((window.__NX_FEED__.articles)||[]);return;} fetch(FEED_URL+'?t='+Date.now(),{cache:'no-store'}).then(function(r){if(!r.ok)throw new Error('HTTP '+r.status);return r.json();}).then(function(f){render((f&&f.articles)||[]);}).catch(function(e){var g=document.getElementById('nx-news-grid');if(g)g.innerHTML='<div class="nx-news-err">Не удалось загрузить ('+esc(e.message)+').</div>';});}
+    document.addEventListener('click',function(e){if(e.target&&e.target.hasAttribute&&e.target.hasAttribute('data-nx-close'))closeArticle();});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape')closeArticle();});
+    load();setInterval(load,120000);
+  })();
+  </script>
+  <!-- ====== КОНЕЦ ВИДЖЕТА ====== -->
+  <div class="demo-divider">↑ конец блока T123</div>
+  <div style="height:40px"></div>
+</body>
+</html>
